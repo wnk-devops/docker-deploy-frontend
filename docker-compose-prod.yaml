@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  frontend:
+    image: winnkyaw/234-deploy-frontend:latest
+    ports:
+      - "9999:80"
