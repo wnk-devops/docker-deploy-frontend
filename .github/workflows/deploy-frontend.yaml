@@ -43,7 +43,7 @@ jobs:
         with:
           host: ${{ secrets.HOST_SERVER }}
           username: ${{ secrets.HOST_USER_NAME }}
-          key: ${{ secrets.HOST_SSH_PPRIVATE_KEY }}
+          key: ${{ secrets.HOST_SSH_PRIVATE_KEY }}
           port: 22
           script: |
             cd /home/ubuntu/frontend
