@@ -1,6 +1,6 @@
 # Stage 0
 
-FROM node:10-apline as node
+FROM node:10-alpine as node
 WORKDIR /app
 COPY package*.json /app/
 RUN npm install
